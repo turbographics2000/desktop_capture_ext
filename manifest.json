@@ -1,0 +1,22 @@
+{
+    "name": "Screen Capture Ext",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "background": {
+        "scripts": [
+            "bg.js"
+        ]
+    },
+    "externally_connectable": {
+        "matches": [
+            "https://turbographics2000.github.io/skyway-sfu-screenshare/*",
+            "https://turbographics2000.github.io/skyway_sfu_datasizecheck_screenshare/*",
+            "https://turbographics2000.github.io/skyway-mesh-screenshare/*",
+            "https://turbographics2000.github.io/skyway_sfu_datasizecheck_screenshare_with_audio/*",
+            "https://turbographics2000.github.io/skyway_sfu_screenshare_with_workaround/*"
+        ]
+    },
+    "permissions": [
+        "desktopCapture"
+    ]
+}
